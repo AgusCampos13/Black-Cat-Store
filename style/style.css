@@ -1,0 +1,82 @@
+*{
+  font-family: 'Assistant', sans-serif;
+}
+
+body{
+  overflow: scroll;
+}
+
+.en-renglon{
+  display: flex;
+  flex-direction: row;
+}
+
+/*header*/
+
+.encabezado-1{
+
+  justify-content: flex-end;
+  align-items: center;
+
+  background-size: cover;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  height: 4vh;
+
+  background-color: #FFFF;
+}
+
+.encabezado-1 a{
+  text-decoration: none;
+  color: #000;
+}
+
+.encabezado-1 h5{
+  
+  font-size: 1.65vh;
+  margin: 0% 1% 0% 1%;
+}
+
+/*barra de navegacion*/
+
+.barra-navegacion{
+
+  background-color: #121212;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.barra-navegacion a{
+
+  color: #000;
+}
+
+/*encabezado 2*/
+
+.encabezado-2, .encabezado-2 div, .encabezado-2 nav{
+
+  background-color: #121212 ;
+}
+
+.encabezado-2 h1{
+
+  color: #FFFF;
+  font-family: 'Grenze Gotisch', serif;
+}
+
+.encabezado-2 button{
+
+  border: none;
+}
+
+@media only screen and (min-width: 992px){
+
+  .encabezado-2{
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
